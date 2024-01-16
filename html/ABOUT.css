@@ -1,0 +1,691 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@600&family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, ::after, ::before{
+    border: 0 solid #e6e6e6;
+    box-sizing: border-box;
+}
+.banner {
+    display: block;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo a{
+    display: flex;
+    text-decoration: none;
+}
+
+.logo p {
+    padding: 6px;
+    font-size: 30px;
+}
+
+.logo p:nth-child(1) , .logo p:nth-child(3) {
+    color: rgb(161, 28, 123);   
+    font-family: 'Noto Serif', serif;
+    
+}
+
+.logo p:nth-child(2){
+    margin-top: 9px;
+    color: gray;
+    font-family: 'Pinyon Script', cursive;
+}
+
+.service ul {
+    display: flex;
+    padding: 40px;
+    font-size: 17px;
+    list-style: none;
+}
+
+.service i {
+    color: rgb(161, 28, 123);
+    padding: 6px;
+}
+
+.service i:hover {
+    cursor: pointer;
+}
+
+.service a{
+    padding: 0 20px;
+    font-family: 'Baloo 2', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.line {
+    border: none;
+}   
+
+.line hr {
+    height: 1px; 
+    background-color: #c4c4c4;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-size: 18px;
+}
+
+
+.title p:nth-child(1){
+    font-family: 'Alegreya', serif;
+    letter-spacing: 4px;
+}
+
+.title p:nth-child(2){
+    margin: -12px 7px;
+    font-family: 'Brush Script MT';
+    font-size: 35px;
+    color: rgb(161, 28, 123);
+}
+
+.nav2 {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: Arvo,Georgia,Cambria,Times New Roman,Times,serif;
+}
+
+.normal-text {
+    font-family: Arial, sans-serif;
+}
+
+.stylized-text {
+    font-family: 'Pacifico', cursive; 
+    text-align: center;
+}
+
+.object-contain{
+    object-fit: contain;
+}
+
+:root{
+    --text: #734060;
+    --background: #e6e6e6;
+}
+
+.text-decoration-none{
+    text-decoration: none;
+}
+
+.text-decoration-bold{
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-content1{
+    justify-content: space-between;
+}
+
+.justify-content2{
+    justify-content: space-around;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.margin-right{
+    margin-right: 10px;
+}
+
+.word {
+    display: inline-block;
+}
+
+.w-8 {
+    width: 2rem;
+}
+
+.h-8 {
+    height: 2rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.text-black {
+    --tw-text-opacity: 1;
+    color: rgb(26 26 26/var(--tw-text-opacity));
+}
+
+.color-text{
+    color: #e6e6e6;
+}
+
+.margin-bottom-p{
+    font-size: 17px;
+    margin-bottom: 0.75rem;
+}
+
+.head{
+    padding: 30px;
+}
+
+.head .title .space_text{
+    margin-left: 10px;
+}
+
+.head .navigation .left{
+    margin-left: 40px;
+    margin-right: 0;
+}
+
+.page1{
+    background-color: #e6e6e6;
+    line-height: 1.5;
+}
+
+.page1_img > img{
+    width: 475px;
+    height: 600px;
+    margin: 0px 130px 0px 30px;
+}
+
+.content_page1{
+    margin-right: 50px;
+    font-size: large;
+    color: #676767;
+}
+
+.page1 > div > span {
+    font-size: small;
+    font-weight: bold;
+}
+
+.contactpage1{
+    padding: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #734060;
+}
+
+.contactpage1 .iconcontactpage1 > a > i{
+    font-size: xx-large;
+    color: #fff;
+}
+
+.page2{
+    font-size: 17px;
+}
+
+.page2 .content-page2{
+    margin: 5% 30% 0px 5%;
+    color: #676767;
+}
+
+.page2 .content-page2 > img{
+    width: 100%;
+    height: auto;
+}
+
+.page2 .content-page2 > ul{
+    margin-left: 30px;
+}
+
+.page2 .content-page2 > ul > li{
+    margin-bottom: 0.75rem;
+}
+
+.page2 .content-page2 > ul > li > a{
+    color: #734060;
+    text-decoration: none;
+    border-bottom: 2px solid #edb654;
+}
+
+.page2 .content-page2 >ul > li > a:hover{
+    /* text-decoration-color: #edb654;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px; */
+    color: #fff;
+    background-color: #edb654;
+}
+
+.page2 .content-page2 > p > a:hover{
+    color: #ffffff;
+    background-color: #edb654;
+}
+
+.page2 .content-page2 > p > a{
+    color: #734060;
+    text-decoration: none;
+    border-bottom: 2px solid #edb654;
+}
+
+.promotion-page2{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    background-color: #0693e3;
+    color: #ffffff;
+}
+
+.promotion-page2 .logo-promotion-page2{
+    margin: 0px 40px 0px 100px;
+}
+
+.promotion-page2 .logo-promotion-page2 > div{
+    margin-bottom: 5rem;
+    line-height: 1.5rem;
+}
+
+.promotion-page2 .logo-promotion-page2 > img {
+    margin-bottom: 5rem;
+}
+
+.promotion-page2 .content-promotion-page2{
+    margin-right: 50px;
+    line-height: 1.5em;
+    font-size: 25px;
+}
+
+.promotion-page2 .content-promotion-page2 > p > a{
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 2px solid #edb654
+}
+
+.promotion-page2 .content-promotion-page2 > p > a:hover{
+    color: #ffffff;
+    background-color: #edb654;
+}
+
+.promotion-page2 .logo-promotion-page2 > div > h4{
+    font-family: Arvo,Georgia,Cambria,Times New Roman,Times,serif;
+    font-size: 1.125rem;
+    letter-spacing: .1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.promotion-page2 .logo-promotion-page2 .become-a-member{
+    padding: 0.75rem 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all .6s ease-in-out;
+    --tw-bg-opacity: 1;
+    background-color: rgb(243 139 86/var(--tw-bg-opacity));
+    text-decoration: inherit;
+    color: #ffffff;
+}
+
+.page3{
+    padding: 48px 10rem;
+    color: #676767;
+    font-size: 17px;
+}
+
+.tracking-wide {
+    letter-spacing: .025em;
+}
+
+.page3 .text-align > h2{
+    line-height: 1.25;
+    font-weight: 700;
+    font-size: 1.875rem;
+    margin-bottom: 1rem;
+}
+
+.page3 .person .introduce-person > h3{
+    --tw-text-opacity: 1;
+    color: rgb(115 64 96/var(--tw-text-opacity));
+    font-weight: 700;
+    font-size: 1.25rem;
+    font-family: ConsulSans-750,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    margin-bottom: 0.5rem;
+}
+
+.page3 .img-person > img{
+    margin-right: 30px;
+    margin-bottom: 2rem;
+}
+
+
+/* .footer{
+    margin: 50px;
+}
+.left-footer .flex .column1{
+    margin: 0px 120px 30px 0px;
+    color: #6d6d6d;
+    font-size: 15px;
+}
+
+.left-footer .flex .column2{
+    margin: 0px 120px 30px 0px;
+    color: #6d6d6d;
+    font-size: 15px;
+}
+
+.left-footer .flex .column1 > p{
+    margin-bottom: 1rem;
+}
+
+.left-footer .flex .column2 > p{
+    margin-bottom: 1rem;
+}
+
+.left-footer .icon-footer > div > a > i{
+    font-size: xx-large;
+    color: #734060;
+    background-color: #fff;
+} */
+
+
+.footer-page {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    background-color: transparent;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.footer-right {
+    height: 160px;
+    background-color: rgba(114, 63, 95, 0.9);
+    padding: 20px;
+    position: relative;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.top2 {
+    position: absolute;
+    top: 50px;
+    left: 165px;
+}
+
+.top p {
+    padding: 5px;
+}
+
+.top p:nth-child(1){
+    margin-top: -20px;
+    font-family: 'Allura', cursive;
+    font-size: 50px;
+}
+
+.top p:nth-child(2){
+    font-family: 'Alegreya', serif;
+    font-size: 23px;
+}
+
+.top2 p{
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+}
+
+.footer-right .head-bot-right {
+    padding: 30px;
+}
+
+.footer-left li , .footer-middle li{
+    display: flex;
+    margin: 10px;
+    letter-spacing: 1px;
+}
+
+.footer-left p , .footer-middle p{
+    font-family: 'Noto Serif', serif;
+    font-size: 12px;
+    color:  rgba(164, 158, 164, 0.9);
+    font-weight: bold;
+}
+
+.f1 p{
+    color: #292424;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+
+.p1:hover p {
+    cursor: pointer;
+    color: rgba(142, 89, 142, 0.9);
+}
+
+.end2 {
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+
+.end2 .icon {
+     height: 50px;
+    position: relative;
+    display: flex;
+    color: rgb(238, 233, 237);
+    background-color: transparent;
+}
+
+.end2 a:nth-child(1) {
+    padding-left: 150px;
+}
+
+.end2 i {
+    margin: 33% 33%;
+}
+
+.end2 > p {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 35px;
+    padding: 0 20px;
+    color: rgb(122, 2, 88);;
+}
+
+.end2 .icon i{
+    padding: 7px 10px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: rgba(114, 63, 95, 0.9);
+    color:white ;
+}
+
+.end2 .icon1:hover i {
+    background-color: #686868;
+}
+
+.logo2 {
+    margin-left: -350px;
+}
+
+.logo2 a{
+    display: flex;
+    text-decoration: none;
+    padding:60px;
+}
+
+.logo2 p {
+    padding: 6px;
+    font-size: 30px;
+}
+
+.logo2 p:nth-child(1) , .logo2 p:nth-child(3) {
+    color: rgb(161, 28, 123);   
+    font-family: 'Noto Serif', serif;
+    
+}
+
+.logo2 p:nth-child(2){
+    margin-top: 9px;
+    color: gray;
+    font-family: 'Pinyon Script', cursive;
+}
+
+.infor1 {
+    display: flex;
+    width: 500px;
+    height: 50px;
+    margin-top: 70px;
+    margin-left: -30px;
+}
+
+.infor2{
+    display: flex;
+    margin-top: 90px;
+    margin-left: -500px;
+}
+
+.infor1 p {
+    font-size: 13px;
+    font-family: 'Alegreya', serif;
+    color: #515151;
+}
+
+.infor2 p {
+    font-size: 13px;
+    font-family: 'Alegreya', serif;
+    color: #515151;
+}
+
+.brand {
+    display: flex;
+    margin-top: -90px;
+    margin-left: 450px;
+    background-color: transparent;
+    height: 20px;
+    font-family: 'Alegreya', serif;
+}
+
+.brand p {
+    color: rgb(69, 63, 63);
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.imgbrand {
+    margin-top: -40px;
+}
+
+.imgbrand .logo_1 img {
+    width: 70px;
+    height: 50px;
+    margin-left: -200px;
+}
+
+.imgbrand .logo_2 img {
+    width: 120px;
+    height: 250px;
+    margin-top: -160px;
+    margin-left: -100px;
+}
+
+.footer-right .head-bot-right{
+    width: 480px;
+    height: 150px;
+}
+
+.footer-right .head-bot-right input{
+    margin-top: -15px;
+    width: 180px;
+    height: 45px;
+}
+
+.footer-right .head-bot-right button {
+    position: relative;
+    margin-left: 370px;
+    width: 50px;
+    height:45px;
+    bottom: 45px;
+    background-color: rgb(255, 203, 107);
+    font-family: 'Alegreya', serif;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-right input::placeholder {
+    font-family: 'Alegreya', serif;
+    font-size: 15px;
+}
+
+.footer-right input {
+    font-size: 15px;
+}
+
+.footer-right .top p:nth-child(1){
+    margin-top: -20px;
+    font-family: 'Allura', cursive;
+    font-size: 40px;
+}
+
+.footer-right .top p:nth-child(2){
+    margin-top: -6px;
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+}
+
+.footer-right .top p {
+    color: aliceblue;
+}
+
+.footer-right .top2 p {
+    font-size: 15px;
+    margin-left: -40px;
+    margin-top: -6px;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+}
+
+.last p {
+    font-family: 'Alegreya', serif;
+    color: #686868;
+    padding: 0 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.last:hover p {
+    color:rgba(114, 63, 95, 0.9);
+}
+
+.imgbrand img{
+    filter: grayscale(1);
+    cursor: pointer;
+}
+
+.imgbrand img:hover {
+    filter: brightness(1);
+}
